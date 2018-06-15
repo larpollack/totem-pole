@@ -1,0 +1,38 @@
+{
+  "name": "totem_pole",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "~27.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "expo": "^27.0.1",
+    "express": "^4.16.3",
+    "latest": "^0.2.0",
+    "link": "^0.1.5",
+    "path": "^0.12.7",
+    "react": "16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-google-signin": "^0.12.0",
+    "react-navigation": "^2.3.1",
+    "react-navigator": "0.0.0-0",
+    "sequelize": "^4.37.10",
+    "volleyball": "^1.5.1"
+  }
+}
