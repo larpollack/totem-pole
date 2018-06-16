@@ -12,6 +12,11 @@ const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: "center"
   },
+  text: {
+    fontFamily: "Futura",
+    fontSize: 20,
+    color: "#454545"
+  },
   mode: {
     fontFamily: "Futura",
     fontSize: 20,

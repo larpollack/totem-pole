@@ -1,4 +1,4 @@
-export const moves = [
+export default (moves = [
   {
     move: "pole sit",
     level: "intro",
@@ -9,4 +9,4 @@ export const moves = [
   { move: "ballerina", level: "intermediate", image: "" },
   { move: "allegra", level: "advanced", image: "" },
   { move: "spatchcock", level: "pro", image: "" }
-];
+]);

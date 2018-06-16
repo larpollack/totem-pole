@@ -4,7 +4,8 @@ import {
   View,
   Text,
   Button,
-  TouchableHighlight
+  TouchableHighlight,
+  Image
 } from "react-native";
 import styles from "../../styleSheet";
 
@@ -13,6 +14,11 @@ export class HomeScreen extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Totem Pole</Text>
+        <Text style={styles.text}>climb your way to the top</Text>
+        <Image
+          style={{ width: 550, height: 250 }}
+          source={require("../../img/pdplank.jpg")}
+        />
         <Button
           style={styles.mode}
           onPress={() => this.props.navigation.navigate("Recreation")}
