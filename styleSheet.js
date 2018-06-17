@@ -23,6 +23,14 @@ const styles = StyleSheet.create({
     color: "black",
     textShadowRadius: 5,
     textShadowColor: "darkgray"
+  },
+  item: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: 30,
+    margin: 2,
+    borderWidth: 1
   }
 });
 

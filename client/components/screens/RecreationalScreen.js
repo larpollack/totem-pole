@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { View, Text, Button } from "react-native";
 import Moves from "../Moves";
-import styles from "../../styleSheet";
+import styles from "../../../styleSheet";
 
 export class RecreationalScreen extends Component {
   render() {
+    const { navigate } = this.props.navigation;
     return (
       <View>
         <Button
@@ -12,7 +13,7 @@ export class RecreationalScreen extends Component {
           title="Home"
         />
         <Text>Now in Recreation Mode</Text>
-        <Moves />
+        <Moves navigation={navigate} />
       </View>
     );
   }

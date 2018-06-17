@@ -7,7 +7,7 @@ import {
   TouchableHighlight,
   Image
 } from "react-native";
-import styles from "../../styleSheet";
+import styles from "../../../styleSheet";
 
 export class HomeScreen extends Component {
   render() {
@@ -17,7 +17,7 @@ export class HomeScreen extends Component {
         <Text style={styles.text}>climb your way to the top</Text>
         <Image
           style={{ width: 550, height: 250 }}
-          source={require("../../img/pdplank.jpg")}
+          source={require("../../../img/pdplank.jpg")}
         />
         <Button
           style={styles.mode}
