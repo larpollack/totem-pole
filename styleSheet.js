@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: "black",
     textShadowRadius: 5,
-    textShadowColor: "darkgray"
+    textShadowColor: "darkgray",
+    textAlign: "center"
   },
   item: {
     flexDirection: "row",
@@ -30,7 +31,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 30,
     margin: 2,
-    borderWidth: 1
+    borderWidth: 1,
+    borderColor: "#7c1140",
+    backgroundColor: "#f76593"
+  },
+  moves: {
+    fontFamily: "Futura",
+    fontSize: 15,
+    color: "#454545"
   }
 });
 

@@ -11,6 +11,9 @@ import { HomeScreen } from "./client/components/screens/HomeScreen";
 import Intro from "./client/components/Intro";
 import Moves from "./client/components/Moves";
 import Beginner from "./client/components/Beginner";
+import Intermediate from "./client/components/Intermediate";
+import Advanced from "./client/components/Advanced";
+import Pro from "./client/components/Pro";
 
 export default class App extends React.Component {
   render() {
@@ -29,7 +32,10 @@ export const AppNavigator = createStackNavigator(
     Home: { screen: HomeScreen },
     Intro: { screen: Intro },
     Moves: { screen: Moves },
-    Beginner: { screen: Beginner }
+    Beginner: { screen: Beginner },
+    Intermediate: { screen: Intermediate },
+    Advanced: { screen: Advanced },
+    Pro: { screen: Pro }
   },
   { initialRouteName: "Home" }
 );

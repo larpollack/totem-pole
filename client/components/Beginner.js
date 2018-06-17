@@ -22,18 +22,18 @@ export default class Intro extends Component {
         <ScrollView>
           <View style={styles.item}>
             <Image
-              style={{ width: 500, height: 350 }}
+              style={{ width: 350, height: 250 }}
               source={require("../../img/pdplank.jpg")}
             />
-            <Text>Plank</Text>
           </View>
+          <Text style={styles.moves}>Plank</Text>
           <View style={styles.item}>
             <Image
-              style={{ width: 400, height: 500 }}
+              style={{ width: 350, height: 500 }}
               source={require("../../img/pdcrossknee.jpg")}
             />
-            <Text>Cross Knee Release</Text>
           </View>
+          <Text style={styles.moves}>Cross Knee Release</Text>
         </ScrollView>
       </View>
     );

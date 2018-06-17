@@ -8,12 +8,11 @@ import {
   ScrollView
 } from "react-native";
 import React, { Component } from "react";
-import { INTRO } from "../../utils/constants";
 import styles from "../../styleSheet";
 
-export default class Intro extends Component {
+export default class Pro extends Component {
   static navigationOptions = {
-    title: "Intro"
+    title: "Pro"
   };
   render() {
     // let introPic = INTRO.map(move => move.image);
@@ -22,25 +21,25 @@ export default class Intro extends Component {
         <ScrollView>
           <View style={styles.item}>
             <Image
-              style={{ width: 350, height: 500 }}
-              source={require("../../img/pdpolesit.jpg")}
+              style={{ width: 350, height: 300 }}
+              source={require("../../img/pdspatchcock.jpg")}
             />
           </View>
-          <Text style={styles.moves}>Pole Sit</Text>
+          <Text style={styles.moves}>Spatchcock</Text>
+          <View style={styles.item}>
+            <Image
+              style={{ width: 350, height: 450 }}
+              source={require("../../img/pdrainbowmarchenko.jpg")}
+            />
+          </View>
+          <Text style={styles.moves}>Rainbow Marchenko</Text>
           <View style={styles.item}>
             <Image
               style={{ width: 350, height: 400 }}
-              source={require("../../img/pdbackbend.png")}
+              source={require("../../img/pdsuperpain.jpg")}
             />
           </View>
-          <Text style={styles.moves}>Backbend</Text>
-          <View style={styles.item}>
-            <Image
-              style={{ width: 350, height: 400 }}
-              source={require("../../img/pdflamingo.jpg")}
-            />
-          </View>
-          <Text style={styles.moves}>Flamingo Stand</Text>
+          <Text style={styles.moves}>SuperPain</Text>
         </ScrollView>
       </View>
     );

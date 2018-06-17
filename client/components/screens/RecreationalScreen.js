@@ -12,7 +12,7 @@ export class RecreationalScreen extends Component {
           onPress={() => this.props.navigation.navigate("HomeScreen")}
           title="Home"
         />
-        <Text>Now in Recreation Mode</Text>
+        <Text style={styles.mode}>Now in Recreation Mode</Text>
         <Moves navigation={navigate} />
       </View>
     );
